@@ -1,6 +1,12 @@
-<!-- an example of an awesome HTML import -->
-<link rel="import" ng-href="{{base_url}}/assets/any_assets.html">
+<link rel="import" ng-href="{{config.polymer_assets_url}}/paper-ripple/paper-ripple.html">
+<link rel="import" ng-href="{{config.polymer_assets_url}}/core-animation/core-animation.html">
+<link rel="import" ng-href="{{config.polymer_assets_url}}/core-animation/core-animation-group.html">
+<link rel="import" ng-href="{{config.polymer_assets_url}}/core-icons/core-icons.html">
+<link rel="import" ng-href="{{config.polymer_assets_url}}/core-icons/av-icons.html">
 
-<!-- you have to use Custom Elements in order to include your own stylesheets -->
-<!-- you are not allowed to use the <style> tag here -->
-<h1>Just plain HTML</h1>
+
+<link rel="import" ng-href="{{base_url}}/assets/tic-tac-toe.html">
+
+<div class="text-center">
+	<tic-tac-toe style="display: inline-block;"></tic-tac-toe>
+</div>
